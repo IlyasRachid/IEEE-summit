@@ -164,7 +164,6 @@ a:focus {
 
 .custom_nav-container .navbar-nav .nav-item .nav-link {
   padding: 5px 20px;
-
   text-align: center;
   border-radius: 5px;
   -webkit-transition: all 0.3s;
@@ -172,6 +171,7 @@ a:focus {
 }
 
 .logo {
+  padding-top: 10px;
   color: #00bbf0;
 }
 .nav-link {
@@ -221,6 +221,35 @@ a:focus {
   height: 42px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+}
+
+.image-cont {
+  height: auto;
+  wifth: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  padding: 20px;
+  justify-items: center;
+}
+.imageMock {
+  width: 480px;
+  height: 300px;
+  object-fit: cover;
+  background-color: rgb(109, 109, 131);
+}
+.schedule-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.schedule-table td,
+.schedule-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.schedule-table th {
+  text-align: center;
+  background-color: #f2f2f2;
 }
 
 .custom_nav-container .navbar-toggler span {
