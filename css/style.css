@@ -242,6 +242,20 @@ a:focus {
   border-collapse: collapse;
   width: 100%;
 }
+.organLogo {
+  width: 250px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.boxOrgan {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 40px;
+}
 .schedule-table td,
 .schedule-table th {
   border: 1px solid #ddd;
